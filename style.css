@@ -1,0 +1,114 @@
+body{
+    min-width: 320px;
+}
+.container{
+    max-width: 1440px !important;
+}
+.showmore:hover{
+    background-color: #fdba74;
+    color: white;
+    transition: 0.5s;
+}
+.showmore:active{
+    background-color: #fb923c;
+    border-color: #fb923c;
+    transition: 0.5s;
+}
+hr{
+    width: 1240px;
+    margin: auto;
+}
+@media screen and (min-width: 640px){
+    .tipstricksgallary div{
+        grid-template-columns: auto auto auto;
+    }
+}
+.tipstricksgallary::-webkit-scrollbar{
+    display: none;
+}
+#LeftBtn{
+    margin-right: -50px;
+    z-index: 99;
+}
+#RightBtn{
+    margin-left: -65px;
+    z-index: 99;
+}
+@media screen and (max-width: 1280px){
+    #RightBtn{
+        margin-left: -60px;
+    }
+}
+#LeftBtn2{
+    z-index: 98;
+}
+#RightBtn2{
+    z-index: 99;
+}
+.tipscard:hover {
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1); /* Змініть значення тіні за потребою */
+}
+.addtocartbtn:hover{
+    background-color: #fdba74;
+    color: white;
+    transition: 0.5s;
+}
+.addtocartbtn:active{
+    background-color: #fb923c;
+    transition: 0.5s;
+}
+.hashtaggallery::-webkit-scrollbar{
+    display: none;
+}
+.hashtaggallery{
+    transition: transform 0.5s ease-in-out;
+}
+.scroll-content div img{
+    transition: 0.5s;
+}
+.scroll-content div img:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+.btntype2:hover{
+    background-color: #fb923c;
+    color: white;
+    transition: 0.5s;
+}
+.btntype2:active{
+    background-color: #f97316;
+    transition: 0.5s;
+}
+.BeaGallery::-webkit-scrollbar{
+    display: none;
+}
+.HeadGallery::-webkit-scrollbar{
+    display: none;
+}
+#mobile-menu {
+    animation-duration: 0.3s;
+    animation-name: fade-in;
+  }
+
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+}
+
+.scrollanimation {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  
+  .scrollanimation.scrollshow {
+    opacity: 1;
+    transition: all 1.5s;
+    transform: translateY(0%);
+}
+
+.dropdown-content a:hover {background-color: #fb923c;}
+.dropdown:hover .dropdown-content {display: block;}
